@@ -1,0 +1,92 @@
+body {
+  padding: 0;
+  margin: 0;
+	background-color: #cde0de;
+  color: #00312e;
+}
+
+header {
+  padding: 1.3em 1em 1em 1em;
+  color: white;
+	text-align: center;
+	margin-bottom: 2em;
+  background-color: #009c82;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+header > h1 {
+	margin-bottom: 0
+}
+header > p {
+	margin-bottom: 4px;
+	font-size: 125%;
+	font-style: italic;
+}
+
+nav, section {
+  margin: 0 auto 2em auto;
+  max-width: 800px;
+  width: 92%;
+}
+
+nav {
+	display: flex;
+  justify-content: space-around;
+}
+
+nav > a {
+	text-align: center;
+}
+
+section {
+	padding: 1em;
+	border-radius: 4px;
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+section::after {
+	content: '';
+	display: block;
+	clear: right;
+}
+
+section > img {
+	width: 100px;
+	height: auto;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 4px;
+	border-radius: 4px;
+}
+
+section > p {
+  margin: 0;
+}
+
+h2 {
+  color: #00ada2;
+}
+
+label {
+	margin: 0 8px 0 0;
+}
+
+form > div {
+	margin-bottom: 8px;
+}
+
+footer {
+	text-align: center;
+	font-size: 85%;
+	color: #3f4a36;
+}
+
+input[type="submit"] {
+  float: right;
+  border: 0;
+  background-color: #00ada2;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
